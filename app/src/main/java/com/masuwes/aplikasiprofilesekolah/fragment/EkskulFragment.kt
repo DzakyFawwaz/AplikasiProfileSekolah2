@@ -20,6 +20,7 @@ class EkskulFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        // binding layout
         binding = FragmentEkskulBinding.inflate(inflater, container, false)
         adapter = ListItemEkskulAdapter()
 
